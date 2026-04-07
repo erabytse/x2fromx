@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "CLI & library to convert project directories ↔ text trees. Ideal for AI scaffolding & codebase analysis."
 readme = "README.md"
 license = {text = "MIT"}
-authors = [{name = "TakoUlzO / Erabytse", email = "fbfconsulting.org"}]
+authors = [{name = "TakoUlzO / Erabytse", email = "contact@fbfconsulting.org"}]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -21,5 +21,5 @@ dependencies = []
 x2fromx = "x2fromx.cli:main"
 
 [project.urls]
-"Homepage" = "https://github.com/TonUser/x2fromx"
-"Bug Tracker" = "https://github.com/TonUser/x2fromx/issues"
+"Homepage" = "https://github.com/erabytse/x2fromx"
+"Bug Tracker" = "https://github.com/erabytse/x2fromx/issues"
