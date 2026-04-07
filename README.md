@@ -74,8 +74,8 @@ print(f"Created {count} items in {root}")
 ```
 
 📁 Example Output
-```bash
 <!-- TREEVIEW START -->
+```bash
 my_project/
 │
 ├── 📁 src/
