@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "x2fromx"
-version = "0.1.0"
+version = "0.1.1"
 description = "CLI & library to convert project directories ↔ text trees. Ideal for AI scaffolding & codebase analysis."
 readme = "README.md"
 license = {text = "MIT"}
