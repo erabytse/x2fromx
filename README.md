@@ -3,7 +3,6 @@
 [![PyPI version](https://badge.fury.io/py/x2fromx.svg)](https://pypi.org/project/x2fromx/)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://static.pepy.tech/badge/x2fromx)](https://pepy.tech/project/x2fromx)
 
 > **Convert project directories ↔ text trees in one command.**  
 > Built for developers & AI enthusiasts who need to scaffold projects from LLM outputs or extract codebase structure for context analysis.
