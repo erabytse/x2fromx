@@ -6,4 +6,4 @@ def get_version() -> str:
         return version("x2fromx")
     except PackageNotFoundError:
         # Fallback pour 'pip install -e .' en dev
-        return "0.1.2-dev"
+        return "0.1.3-dev"

@@ -90,6 +90,10 @@ my_project/
 ```
 <!-- TREEVIEW END -->
 
+> 💡 **Windows users**: `x2fromx` auto-detects file encoding (UTF-8, cp1252, latin-1). 
+> If you create tree files with `echo`, they'll work out of the box. 
+> For best results, use UTF-8 when possible.
+
 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.

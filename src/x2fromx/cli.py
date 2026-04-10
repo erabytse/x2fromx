@@ -17,7 +17,7 @@ from .builder import ProjectBuilder
 
 def get_version() -> str:
     try: return version("x2fromx")
-    except PackageNotFoundError: return "0.1.2-dev"
+    except PackageNotFoundError: return "0.1.3-dev"
 
 def parse_seeds(seed_args):
     """Parse --seed 'path|content' arguments into a dict."""

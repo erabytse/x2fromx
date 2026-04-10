@@ -2,5 +2,5 @@
 from .scanner import DirectoryScanner
 from .builder import ProjectBuilder
 
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 __all__ = ["DirectoryScanner", "ProjectBuilder", "__version__"]
