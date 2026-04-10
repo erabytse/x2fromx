@@ -4,24 +4,52 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "x2fromx"
-version = "0.1.1"
+version = "0.1.2"
 description = "CLI & library to convert project directories ↔ text trees. Ideal for AI scaffolding & codebase analysis."
 readme = "README.md"
 license = "MIT"
 license-files = [
     "LICENSE",
 ]
-authors = [{name = "TakoUlzO / Erabytse", email = "contact@fbfconsulting.org"}]
+authors = [{name = "Erabytse", email = "contact@fbfconsulting.org"}]
+maintainers = [{name = "TakoUlzO", email = "contact@fbfconsulting.org"}]
+keywords = ["cli", "scaffold", "ai", "tree", "project-structure", "boilerplate"]
 classifiers = [
-    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
     "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Utilities",
 ]
 requires-python = ">=3.8"
 dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "ruff>=0.1", "black>=23.0"]
 
 [project.scripts]
 x2fromx = "x2fromx.cli:main"
 
 [project.urls]
-"Homepage" = "https://github.com/erabytse/x2fromx"
+Homepage = "https://github.com/erabytse/x2fromx"
 "Bug Tracker" = "https://github.com/erabytse/x2fromx/issues"
+"Source Code" = "https://github.com/erabytse/x2fromx"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py38"
+
+[tool.black]
+line-length = 100
+target-version = ["py38"]

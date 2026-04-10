@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "x2fromx"
+version = "0.1.1"
+description = "CLI & library to convert project directories ↔ text trees. Ideal for AI scaffolding & codebase analysis."
+readme = "README.md"
+license = "MIT"
+license-files = [
+    "LICENSE",
+]
+authors = [{name = "TakoUlzO / Erabytse", email = "contact@fbfconsulting.org"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+x2fromx = "x2fromx.cli:main"
+
+[project.urls]
+"Homepage" = "https://github.com/erabytse/x2fromx"
+"Bug Tracker" = "https://github.com/erabytse/x2fromx/issues"
