@@ -36,6 +36,8 @@ x2fromx scan ./my_existing_project -o structure.txt --print
 x2fromx build structure.txt -n my_new_project --overwrite
 ```
 
+![DemoShower](X2fromXDemoShower.gif "X2fromX Demo Shower")
+
 Available flags:
 
 | Flag          | Description |
